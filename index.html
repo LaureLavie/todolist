@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="todolist">
+      <h1>Tu peux le Faire !</h1>
+      <div class="input-group">
+        <input type="text" id="input-task" placeholder="Allez, on s'y met..." />
+        <button class="button">
+          <span>Clique Moi dessus !</span>
+        </button>
+        <select id="filter">
+          <option value="all">Toutes</option>
+          <option value="active">À faire</option>
+          <option value="done">Terminées</option>
+        </select>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
